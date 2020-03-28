@@ -818,7 +818,7 @@ sigma.classes.EventDispatcher = function () {
             return j
         };
         this.drawNode = function (a) {
-            var c = Math.round(10 * a.displaySize) / 10;
+            var c = Math.round(2 * a.displaySize) / 10;
             b.fillStyle = a.color ? a.color : "#ff0000";
             b.strokeStyle = a.attr.strokeStyle ? a.attr.strokeStyle : "#000";
             a.attr.lineWidth && (b.lineWidth = a.attr.lineWidth);
