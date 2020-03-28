@@ -701,7 +701,7 @@ sigma.classes.EventDispatcher = function () {
             defaultNodeHoverColor: "#fff",
             nodeActiveColor: "node",
             defaultNodeActiveColor: "#fff",
-            borderSize: 0,
+            borderSize: 5,
             nodeBorderColor: "aaa",
             defaultNodeBorderColor: "#ff0032",
             edgesSpeed: 200,
