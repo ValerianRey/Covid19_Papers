@@ -848,7 +848,7 @@ sigma.classes.EventDispatcher = function () {
             var d = "fixed" == j.p.labelSize ? j.p.defaultLabelSize : j.p.labelSizeRatio * a.displaySize;
             b.font = (j.p.activeFontStyle || j.p.fontStyle || "") + " " + d + "px " + (j.p.activeFont || j.p.font || "");
             //b.fillStyle = "node" == j.p.labelHoverBGColor ? a.color || j.p.defaultNodeColor : j.p.defaultActiveLabelBGColor;
-            b.fillStyle = "#ffaa00"
+            b.fillStyle = "#ffaa00";
             b.beginPath();
             j.p.labelActiveShadow && (b.shadowOffsetX = 0, b.shadowOffsetY = 0, b.shadowBlur = 4, b.shadowColor = j.p.labelActiveShadowColor);
             sigma.tools.drawRoundRect(b, Math.round(a.displayX - d / 2 - 2), Math.round(a.displayY - d / 2 - 2), Math.round(b.measureText(a.label).width + 1.5 * a.displaySize + d / 2 + 4), Math.round(d + 4), Math.round(d / 2 + 2), "left");
@@ -859,18 +859,18 @@ sigma.classes.EventDispatcher = function () {
             b.shadowBlur = 0;
             b.beginPath();
             //b.fillStyle = "node" == j.p.nodeBorderColor ? a.color || j.p.defaultNodeColor : j.p.defaultNodeBorderColor;
-            b.fillStyle = "#ffaa00"
+            b.fillStyle = "#ffaa00";
             b.arc(Math.round(a.displayX), Math.round(a.displayY), a.displaySize + j.p.borderSize, 0, 2 * Math.PI, !0);
             b.closePath();
             b.fill();
             b.beginPath();
             //b.fillStyle = "node" == j.p.nodeActiveColor ? a.color || j.p.defaultNodeColor : j.p.defaultNodeActiveColor;
-            b.fillStyle = "#ffaa00"
+            b.fillStyle = "#ffaa00";
             b.arc(Math.round(a.displayX), Math.round(a.displayY), a.displaySize, 0, 2 * Math.PI, !0);
             b.closePath();
             b.fill();
             //b.fillStyle = "node" == j.p.labelActiveColor ? a.color || j.p.defaultNodeColor : j.p.defaultLabelActiveColor;
-            b.fillStyle = "#ffaa00"
+            b.fillStyle = "#ffaa00";
             b.fillText(a.label, Math.round(a.displayX + 1.5 * a.displaySize), Math.round(a.displayY + d / 2 - 3));
             return j
         };
