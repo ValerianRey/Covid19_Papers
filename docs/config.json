@@ -14,7 +14,7 @@
   },
   "legend": {
     "edgeLabel": "Distance between abstract text",
-    "colorLabel": "-",
+    "colorLabel": "Cluster",
     "nodeLabel": "Paper"
   },
   "features": {
