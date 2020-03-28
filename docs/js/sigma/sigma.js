@@ -701,7 +701,7 @@ sigma.classes.EventDispatcher = function () {
             defaultNodeHoverColor: "#fff",
             nodeActiveColor: "node",
             defaultNodeActiveColor: "#fff",
-            borderSize: 5,
+            borderSize: 0,
             nodeBorderColor: "node",
             defaultNodeBorderColor: "#fff",
             edgesSpeed: 200,
@@ -819,7 +819,7 @@ sigma.classes.EventDispatcher = function () {
         };
         this.drawNode = function (a) {
             var c = Math.round(10 * a.displaySize) / 10;
-            b.fillStyle = a.attr.color ? a.attr.color : "#00ff38";
+            b.fillStyle = a.attr.color ? a.attr.color : "#ff0000"; 
             b.strokeStyle = a.attr.strokeStyle ? a.attr.strokeStyle : "#000";
             a.attr.lineWidth && (b.lineWidth = a.attr.lineWidth);
             var d = 2 * Math.PI;
