@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c7ee184f.chunk.css",
+    "main.js": "/static/js/main.a7a0029f.chunk.js",
+    "main.js.map": "/static/js/main.a7a0029f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.58fd4268.js",
+    "runtime-main.js.map": "/static/js/runtime-main.58fd4268.js.map",
+    "static/js/2.e4ff672a.chunk.js": "/static/js/2.e4ff672a.chunk.js",
+    "static/js/2.e4ff672a.chunk.js.map": "/static/js/2.e4ff672a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a5dad268dbdfad5aed387e3e6d4a70e7.js": "/precache-manifest.a5dad268dbdfad5aed387e3e6d4a70e7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c7ee184f.chunk.css.map": "/static/css/main.c7ee184f.chunk.css.map",
+    "static/js/2.e4ff672a.chunk.js.LICENSE.txt": "/static/js/2.e4ff672a.chunk.js.LICENSE.txt",
+    "static/media/ColorWheel.png": "/static/media/ColorWheel.e372b9db.png",
+    "static/media/curvedline.png": "/static/media/curvedline.19ebd9a2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58fd4268.js",
+    "static/js/2.e4ff672a.chunk.js",
+    "static/css/main.c7ee184f.chunk.css",
+    "static/js/main.a7a0029f.chunk.js"
+  ]
+}
